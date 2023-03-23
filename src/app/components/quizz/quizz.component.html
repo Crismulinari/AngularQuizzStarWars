@@ -1,0 +1,20 @@
+<div class="quizz__container">
+  <div class="quizz_logo">
+    <img src="https://1000marken.net/wp-content/uploads/2021/01/Star-Wars-Symbol.png" alt="" srcset="">
+    <h1>{{title}}</h1>
+  </div>
+  <div *ngIf= !finished class="quizz_questions">
+    <h3>{{questionSelected.question}}</h3>
+  </div>
+  <div *ngIf= !finished class="quizz_options">
+    <button *ngFor="let option of questionSelected.options; let i = index"
+    (click)="playerChooose(option.alias)"
+    class="btn-option">
+      {{option.name}}
+    </button>
+  </div>
+  <div *ngIf= finished class="quizz_results">
+
+    <p>{{answerSelected}}</p>
+  </div>
+</div>

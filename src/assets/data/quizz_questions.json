@@ -1,0 +1,59 @@
+{
+  "title":"Você acha que seria, um Sith ou um Jedi ?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual o seu comportamento emocional ?",
+      "options":[
+        {"id": 1, "name":"Dependendo da situação sempre recorrer ao emocional", "alias":"A"},
+        {"id": 2, "name":"Desapegar das coisas emocionalmente", "alias":"B"},
+        {"id": 3, "name":"Usar somente o emocinal para decidir as situações", "alias":"A"},
+        {"id": 4, "name":"Não decidir nada pelo emocional", "alias":"B"},
+        {"id": 5, "name":"Usar o emocional somente com relacionamentos", "alias":"A"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Em uma situação de caos o que faria primeiro ?",
+      "options":[
+        {"id": 1, "name":"Correria para longe", "alias":"A"},
+        {"id": 2, "name":"Ajudaria a aumentar a balburdia", "alias":"A"},
+        {"id": 3, "name":"Tentaria acalmar a todos com tranquilidade", "alias":"B"},
+        {"id": 2, "name":"Pegaria seu sabre de luz para lutar contra a balburdia", "alias":"A"},
+        {"id": 2, "name":"Reuniria as lideranças para ajudar a controlar tudo", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Na hora de uma situação contraditória ?",
+      "options":[
+        {"id": 1, "name":"Refletiria a situação para encontrar um equlibrio", "alias":"B"},
+        {"id": 2, "name":"Discutir e mostrar que sua opinião é a mnelhor", "alias":"A"},
+        {"id": 3, "name":"Deixar a situação e seguir em frente", "alias":"A"},
+        {"id": 4, "name":"Conversar sempre é a melhor situação de concenso", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Qual o significado de poder para você ?",
+      "options":[
+        {"id": 1, "name":"Na busca do poder vale tudo", "alias":"A"},
+        {"id": 2, "name":"Deve ser usado com cautela e equilibrio", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Quando você e um mestre ?",
+      "options":[
+        {"id": 1, "name":"Sempre dá ordem ao seu padauan", "alias":"A"},
+        {"id": 2, "name":"É sempre um exemplo para sue padauan", "alias":"B"},
+        {"id": 1, "name":"Já sabe de tudo e não precisa de mais nada", "alias":"A"},
+        {"id": 2, "name":"Busca sempre o engajamento e aprendizado contínuo", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você muito provavelmente seria um Sith!",
+    "B": "Você muito provavelmente seria um Jedi!"
+  }
+}
